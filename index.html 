@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LE RÊVE GUINÉEN - Nimba Or Collection</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Inter:wght@300;400;600&display=swap');
+body{margin:0;background:#0a0a0a;color:#fff;font-family:'Inter',sans-serif}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)), url('https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=1200');background-size:cover;padding:20px}
+.gold{color:#D4AF37}
+h1{font-family:'Cormorant Garamond',serif;font-size:3.2rem;line-height:1.1;margin:0}
+h1 span{display:block;font-size:1rem;letter-spacing:6px;margin-top:15px;font-family:'Inter'}
+.btn{display:inline-block;margin-top:30px;padding:16px 40px;background:#D4AF37;color:#000;font-weight:600;text-decoration:none;letter-spacing:2px}
+.section{padding:60px 20px;max-width:1000px;margin:auto}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:30px}
+.card{background:#151515;padding:15px;text-align:center;border:1px solid #222}
+.card img{width:100%;height:220px;object-fit:cover}
+.card h3{margin:15px 0 5px;font-family:'Cormorant Garamond';font-size:1.4rem}
+.price{color:#D4AF37;font-weight:600}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:14px 20px;border-radius:30px;text-decoration:none;font-weight:600;z-index:99}
+footer{text-align:center;padding:40px;color:#666;border-top:1px solid #222;margin-top:40px}
+</style>
+</head>
+<body>
+<div class="hero">
+<div>
+<h1>LE RÊVE GUINÉEN<span>NIMBA OR COLLECTION</span></h1>
+<p style="margin-top:20px;letter-spacing:2px;color:#ccc">CONAKRY • LUXE • AUTHENTICITÉ • OR DE NIMBA</p>
+<a href="#collection" class="btn">DÉCOUVRIR LA COLLECTION</a>
+<p style="margin-top:30px;font-size:.9rem">Livraison Conakry • Commande WhatsApp</p>
+</div>
+</div>
+
+<div class="section" id="collection">
+<p class="gold" style="letter-spacing:4px;text-align:center">— COLLECTION 2026 —</p>
+<h2 style="font-family:'Cormorant Garamond';font-size:2.5rem;text-align:center;margin:10px 0 0">L'OR DE GUINÉE, SUBLIMÉ</h2>
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600"><h3>Bague Nimba Royale</h3><p class="price">1.250.000 GNF</p><a href="https://wa.me/224XXXXXXXXX?text=Je veux la Bague Nimba Royale" style="color:#D4AF37;font-size:.8rem">Commander sur WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600"><h3>Collier Siguiri</h3><p class="price">2.800.000 GNF</p><a href="https://wa.me/224XXXXXXXXX?text=Je veux le Collier Siguiri" style="color:#D4AF37;font-size:.8rem">Commander sur WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600"><h3>Bracelet Conakry Gold</h3><p class="price">950.000 GNF</p><a href="https://wa.me/224XXXXXXXXX?text=Je veux le Bracelet Conakry" style="color:#D4AF37;font-size:.8rem">Commander sur WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600"><h3>Boucles Nimba</h3><p class="price">650.000 GNF</p><a href="https://wa.me/224XXXXXXXXX?text=Je veux les Boucles Nimba" style="color:#D4AF37;font-size:.8rem">Commander sur WhatsApp</a></div>
+</div>
+</div>
+
+<div class="section" style="text-align:center;background:#111;margin-top:20px">
+<h2 style="font-family:'Cormorant Garamond';font-size:2rem">POURQUOI LE RÊVE GUINÉEN ?</h2>
+<p style="color:#aaa;line-height:1.8;max-width:600px;margin:20px auto">Inspiré par les montagnes du Nimba et l'or pur de Siguiri. Chaque pièce est créée à Conakry pour la femme guinéenne forte, élégante et ambitieuse. Fait en Guinée, pour le monde.</p>
+<p class="gold">✦ 100% Conçu à Conakry ✦ Or Plaqué Premium ✦ Édition Limitée ✦</p>
+</div>
+
+<footer>
+LE RÊVE GUINÉEN © 2026 - Conakry, Guinée<br>
+Instagram: @lereveguineen • WhatsApp: +224 XXX XX XX<br>
+<small style="color:#444">Nimba Or Collection - L'excellence guinéenne</small>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/224XXXXXXXXX">💬 WhatsApp</a>
+</body>
+</html>
